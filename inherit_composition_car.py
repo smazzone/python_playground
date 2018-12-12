@@ -2,7 +2,7 @@ from classes_car import Car
 from battery_composition import Battery as Battery
 from random import randint
 
-#When you create a child class, the parent class 
+# When you create a child class, the parent class 
 # must be either part of the current file and must appear 
 # before the child class in the file
 # or you can import it from another module
@@ -27,7 +27,7 @@ class ElectricCar(Car):
         """Electric cars don't have gas tanks."""
         print("This car doesn't need a gas tank! It's an Electric Car!")
 
-my_tesla = ElectricCar('tesla','model X',randint(2015,2019))
+my_tesla = ElectricCar('tesla','model X',randint(2015,2020))
 print(my_tesla.get_descriptive_name())
 my_tesla.describe_battery_size()
 my_tesla.fill_gas_tank()
