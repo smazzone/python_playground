@@ -1,6 +1,7 @@
+from random import randint
 from classes_car import Car
 from battery_composition import Battery as Battery
-from random import randint
+
 
 # When you create a child class, the parent class 
 # must be either part of the current file and must appear 
